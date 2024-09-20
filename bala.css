@@ -44,8 +44,8 @@ h2{
     background:#267c65;
 }
 .game{
-    width:430px;
-    height:430px;
+    width:300px;
+    height:300px;
     display:flex;
     flex-wrap:wrap;
     gap:10px;
@@ -54,8 +54,8 @@ h2{
 }
 .item{
     position:relative;
-    width:100px;
-    height:100px;
+    width:60px;
+    height:60px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +64,7 @@ h2{
     background: #fff;
     transition: 0.25s;
     border-radius: 60px;
+    padding:5px;
 }
 .item:after{
     content:'';
@@ -82,3 +83,4 @@ h2{
 {
     transform:rotateY(180deg);
 }
+
